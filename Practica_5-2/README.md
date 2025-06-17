@@ -124,8 +124,7 @@ void loop() {
 
 ### **4.3 Conexión física**  
 1. Conectar **SDA** y **SCL** del ESP32-S3 a la pantalla OLED y al sensor AHT20.  
-2. Añadir resistencias **pull-up (4.7kΩ)** a las líneas SDA/SCL.  
-3. Alimentar los dispositivos con **3.3V**.  
+2. Alimentar los dispositivos con **3.3V**.  
 
 ---
 
