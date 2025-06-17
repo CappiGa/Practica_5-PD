@@ -26,6 +26,15 @@ I2C_LCD lcd(39);
 
 void setup()
 {
+  lcd.home();
+  lcd.setCursor(3,2);
+  lcd.print(millis());
+  delay(1000);
+
+  lcd.home();
+  lcd.setCursor(3,3);
+  lcd.print("hola manuel, te sentaste en el pastel");
+  delay(1000);
   Serial.begin(115200);
   while (!Serial);
   Serial.println(__FILE__);
