@@ -24,7 +24,7 @@ Esta práctica implementa el uso del bus **I2C** para controlar una pantalla **O
 ## **4. Desarrollo**  
 
 ### **4.1 Preparación del entorno**
-1. Crear un nuevo proyecto en PlatformIO:   
+1. Crear un nuevo proyecto en PlatformIO.   
 2. Configurar el archivo `platformio.ini`con el siguiente contenido:  
    ```ini
    [env:esp32s3]
