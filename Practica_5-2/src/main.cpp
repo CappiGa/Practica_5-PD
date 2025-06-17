@@ -50,15 +50,6 @@ void setup()
 
 void loop()
 {
-  lcd.home();
-  lcd.setCursor(3,2);
-  lcd.print(millis());
-  delay(1000);
-
-  lcd.home();
-  lcd.setCursor(3,3);
-  lcd.print("hola manuel, te sentaste en el pastel");
-  delay(1000);
 
   sensors_event_t humidity, temp;
   aht.getEvent(&humidity, &temp);// populate temp and humidity objects with fresh data
