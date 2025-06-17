@@ -1,5 +1,5 @@
 
-# **Práctica 5-2 - Buses de comunicación I (I2C) 
+# Práctica 5-2 - Buses de comunicación I (I2C) 
 ## **1. Descripción**  
 Esta práctica implementa el uso del bus **I2C** para controlar una pantalla **OLED SSD1306** y un sensor **AHT20/AHT10** (temperatura y humedad) con el **ESP32-S3**. Se demuestra cómo mostrar datos en la pantalla OLED y enviar información de depuración al monitor serie.  
 
