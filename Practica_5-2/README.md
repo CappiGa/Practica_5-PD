@@ -18,7 +18,7 @@ Esta práctica implementa el uso del bus **I2C** para controlar una pantalla **O
 - **Pantalla OLED SSD1306** (I2C)  
 - **Sensor AHT20/AHT10** (I2C)
 - **Cable USB-C**  
-
+![Image](https://github.com/user-attachments/assets/32eb6f47-6332-4e0e-a39c-bc9a1922bf38)
 ---
 
 ## **4. Desarrollo**  
@@ -142,5 +142,5 @@ void loop() {
   Temp: 25.3 C
   Hum: 45.2%
   ```  
-
+![Image](https://github.com/user-attachments/assets/61363cc2-98e4-4fb5-91a4-df8b437b9e54)
 ---
