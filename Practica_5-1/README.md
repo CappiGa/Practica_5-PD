@@ -35,6 +35,7 @@ Los buses permiten la comunicación entre componentes mediante señales eléctri
 - **Dispositivos I2C** (ej. LCD, sensores).   
 - **Cable USB-C**.  
 
+![Image](https://github.com/user-attachments/assets/4052c0ac-19b0-4646-9070-ae7de512deca)
 ---
 
 ## **5. Desarrollo**  
@@ -120,7 +121,9 @@ void loop() {
   I2C device found at address 0x27 !
   I2C device found at address 0x38 !
   Scan completed
-  ```  
+  ```
+  ![Image](https://github.com/user-attachments/assets/bb424363-8d83-4c80-8199-44ba1a82ffa3)
+  
 - **Funcionamiento**:  
   - El escáner identifica las direcciones de los dispositivos cada 5 segundos.  
   - Si no hay dispositivos, muestra `No I2C devices found`.  
